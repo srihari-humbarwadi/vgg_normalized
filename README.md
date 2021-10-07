@@ -1,6 +1,10 @@
-# VGG Normalized
+## VGG Normalized
 This script rescales weights of `Conv2D` layers such that all the `Conv2D` layer activations of `VGG` model have unit mean.
 This is helpful when training models like "style-transfer" that make use of `VGG` based losses.
+
+#### Usage: 
+`python3 convert.py --model_name vgg19 --image_dir ILSVRC2012_img_val --output_weights_path normalized_vgg19.h5`
+
 
 ```
 @inproceedings{Gatys2016,
