@@ -18,3 +18,5 @@ This is helpful when training models like "style-transfer" that make use of `VGG
   booktitle = {2016 {IEEE} Conference on Computer Vision and Pattern Recognition ({CVPR})}
 }
 ```
+Thanks to
+[corleypc/vgg-normalize](https://github.com/corleypc/vgg-normalize)
